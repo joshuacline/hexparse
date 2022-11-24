@@ -2,7 +2,7 @@
 :HEXPROMPT
 CLS&&ECHO ====================================================================&&ECHO                     Josh's ASCII-2-Hex Parser&&ECHO ====================================================================
 IF DEFINED HEX_ACCUMULATOR ECHO HEX OUTPUT=[%HEX_ACCUMULATOR%]
-ECHO TYPE HEX INPUT
+ECHO TYPE ASCII INPUT
 SET HEX_INPUT=&&SET /P "HEX_INPUT=$>>"
 SET "HEX_OUTPUT=HEX_ACCUMULATOR"
 CALL:HEX_INPUT
